@@ -40,7 +40,7 @@ node_modules
 *.sublime-workspace
 
 # bower
-client/bower_components
+#client/bower_components
 
 # audio
 *.aif
