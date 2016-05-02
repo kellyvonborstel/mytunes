@@ -18,7 +18,7 @@ h1 {
   font-weight: 700;
 }
 
-div:first-child {
+/*div:first-child {
   display: initial;
   width: 600px;
   padding: 50px;
@@ -26,7 +26,7 @@ div:first-child {
   border-radius: 10px;
   margin: -34px auto 50px;
   background-color: #ff6148;
-}
+}*/
 
 h1 span.kern {
   letter-spacing: -.06em;
