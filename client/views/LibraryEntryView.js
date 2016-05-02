@@ -1,5 +1,4 @@
-// defines a backbone view class for the entries that will appear within
-// the library views; they will be inserted using the "subview" pattern
+// defines a backbone view class for the library entries
 var LibraryEntryView = Backbone.View.extend({
 
   tagName: 'tr',
