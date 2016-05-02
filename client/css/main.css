@@ -1,3 +1,7 @@
+div#shadow-root {
+  display: none;
+}
+
 body {
   box-sizing: border-box;
   width: 100%;
