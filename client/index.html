@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>myTunes</title>
+</head>
+
+<body>
+  <h1>m<span class="kern">yT</span>unes</h1>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="bower_components/jquery/jquery.min.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+
+  <script src="data/data.js"></script>
+
+  <script src="models/SongModel.js"></script>
+  <script src="collections/Songs.js"></script>
+  <script src="collections/SongQueue.js"></script>
+  <script src="models/AppModel.js"></script>
+
+  <script src="views/PlayerView.js"></script>
+  <script src="views/LibraryView.js"></script>
+  <script src="views/LibraryEntryView.js"></script>
+  <script src="views/AppView.js"></script>
+  <script src="views/SongQueueEntryView.js"></script>
+  <script src="views/SongQueueView.js"></script>
+
+  <script>
+    $(function(){
+      // set up model objects
+      var library = new Songs(songData);
+      var app = new AppModel({library: library});
+
+      // build a view for the top level of the whole app
+      var appView = new AppView({model: app});
+
+      // put the view onto the screen
+      $('body').append(appView.render());
+    });
+  </script>
+</body>
+</html>

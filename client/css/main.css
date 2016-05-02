@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 300;
+}
+
+h1 {
+  width: 600px;
+  margin: 40px auto 0;
+  font-size: 8em;
+  text-align: center;
+  color: #ff9a8a;
+  font-weight: 700;
+}
+
+div {
+  width: 600px;
+  padding: 50px;
+  border: 2px solid #ff9a8a;
+  border-radius: 10px;
+  margin: -34px auto 50px;
+  background-color: #ff6148;
+}
+
+h1 span.kern {
+  letter-spacing: -.06em;
+}
+
+th {
+  padding-bottom: 10px;
+  font-size: 1.35em;
+  text-align: left;
+}
+
+table {
+  width: 600px;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #b5ddff;
+}
+
+table:last-child {
+  margin-bottom: 0;
+}
+
+audio {
+  width: 590px;
+  color: rgba(0,0,0,1);
+}
+
+.artist {
+  width: 120px;
+}
+
+.title {
+  display: inline-block;
+  margin: 3px 0 3px 20px;
+}
