@@ -21,7 +21,7 @@ var SongQueue = Songs.extend({
     }
   },
 
-  playNext: function(){
+  playNext: function() {
     this.shift();
     if (this.length >= 1) {
       this.playFirst();
