@@ -14,7 +14,7 @@ h1 {
   font-weight: 700;
 }
 
-div:first-child {
+div {
   display: block;
   width: 600px;
   padding: 50px;
