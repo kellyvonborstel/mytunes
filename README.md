@@ -1,7 +1,7 @@
-Dance Party
+myTunes
 ==============
 
-A audio player app to practice structuring JavaScript code using Backbone. **Please view the project by clicking link below.**
+A music player app built with Backbone to gain a better understaning of models, views, collections, and event-driven systems. **Please view the project by clicking link below.**
 
 ### Testing
 
