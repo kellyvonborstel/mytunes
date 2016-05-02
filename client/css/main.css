@@ -15,7 +15,6 @@ h1 {
 }
 
 div {
-  display: inline-block;
   width: 600px;
   padding: 50px;
   border: 2px solid #ff9a8a;
