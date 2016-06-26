@@ -1,7 +1,9 @@
 myTunes
 ==============
 
-A music player app built with Backbone to gain a better understaning of models, views, collections, and event-driven systems. **Please view the project by clicking link below.**
+Music player app built with Backbone to gain a better understaning of models, views, collections, and event-driven systems
+
+**Link to view project below**
 
 ### Testing
 
